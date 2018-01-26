@@ -1,13 +1,17 @@
 import React, { Component } from "react";
+import zebra from "./static/zebra.png";
 import "./About.css";
+
+console.log(logo);
 
 class About extends Component {
   render() {
     return (
       <div className="about">
         <h1>
-          Edit About component or pages/about.jsx to include your information.
+          SJZ
         </h1>
+        <img src={zebra} />
       </div>
     );
   }

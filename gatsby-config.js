@@ -59,6 +59,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
+    "gatsby-plugin-sharp",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
@@ -82,6 +83,13 @@ module.exports = {
             type: "image/png"
           }
         ]
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `img`,
+        path: `${__dirname}/src/img/`
       }
     },
     "gatsby-plugin-offline",
