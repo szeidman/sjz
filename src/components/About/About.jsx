@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import zebra from "./static/zebra.png";
 import "./About.css";
 
-console.log(logo);
 
 class About extends Component {
   render() {
@@ -11,7 +9,6 @@ class About extends Component {
         <h1>
           SJZ
         </h1>
-        <img src={zebra} />
       </div>
     );
   }
